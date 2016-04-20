@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <!--
 DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.
 
@@ -772,7 +771,7 @@ information in the standard deployment descriptor.
 Tools are not allowed to add the non-standard information into the
 standard deployment descriptor.
 -->
-<web-app xmlns:web="http://xmlns.jcp.org/xml/ns/javaee">
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
   <display-name>REST POC 3Con/Rico</display-name>
   <welcome-file-list>
     <welcome-file>index.jsp</welcome-file>
